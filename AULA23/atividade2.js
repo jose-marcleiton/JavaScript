@@ -7,4 +7,3 @@ let btnEnviar = document.querySelector('#btnEnviar');
 
 // elemento do dom que recebe o novo filho
 
-let div
