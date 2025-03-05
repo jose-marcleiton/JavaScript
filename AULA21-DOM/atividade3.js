@@ -31,19 +31,27 @@ letNovoBody.appendChild(h5novoarquivo)
 //pedir ao usuario due difite uma tarefa e asiconar ao array(repetir 5x)
 //selecionar o elemento pai
 //criar um elemento filho, adicionar texto, adicionar o filho ao pai(repetir 5x)
-let ol = document.getElementById('listaDeTarefas')
 
+let ol = document.getElementById('listaDeTarefas')
 let tarefas = []
 
-for (let i = 0; i < 5; i++) {
-tarefas[i] = document.createElement('li')
-tarefas[i].innerText = prompt('Escreva a ${i} tarefa')
-ol.appendChild(tarefa[i])
+for(let i = 1; i < 6; i ++){
+    tarefas[i] = document.createElement('li')
+    tarefas[i].innerText = prompt(`Escreva a ${i} tarefa`)
+    ol.appendChild(tarefas[i])
 }
- 
 
+//queryselector - seleciona o primeiro elemento em base de um css selector.
+let seletortagP = document.querySelector('p')
+let seletorClassDestaque = document.querySelector('destaque')
+let seletorIdPrimeiroItem = document.querySelector('primeiroItem')
 
+//QUERY SELECTOR ALL - seleciona todos os elementos com base em um seletor css
+let seletorTagP = document.querySelectorAll('p')
+let seletorClass2 = document.querySelectorAll('destaque')
+let seletorId2 = document.querySelectorAll('#primeiroItem')
 
+console.log(seletorId2)
 
 
 
