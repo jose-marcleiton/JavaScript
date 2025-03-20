@@ -45,8 +45,8 @@ function cadastrarUsuario() {
     }
 }
 
-formulario.addEventListener('submit', function(event))
+formulario.addEventListener('submit', function(event)
 {
    evento.preventDefault()
    
-};
+});
